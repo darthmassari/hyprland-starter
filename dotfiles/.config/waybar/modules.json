@@ -86,13 +86,15 @@
 
     // CPU
     "cpu": {
+	"interval": 5,
         "format": "/ C {usage}% ",
         "on-click": "alacritty -e htop"
     },
 
     // Memory
     "memory": {
-        "format": "/ M {}% ",
+	"interval": 5,
+	"format": "/ M {}% ",
         "on-click": "alacritty -e htop"
     },
 
